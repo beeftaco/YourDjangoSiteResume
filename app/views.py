@@ -8,12 +8,12 @@ from django.template import RequestContext
 from datetime import datetime
 
 YOUR_INFO = {
-    'name' : 'Your name',
+    'name' : 'Eton',
     'bio' : 'What\'s your deal? What do you do?',
     'email' : '', # Leave blank if you'd prefer not to share your email with other conference attendees
-    'twitter_username' : 'tweettweet', # No @ symbol, just the handle.
-    'github_username' : "fetchpush", 
-    'headshot_url' : '', # Link to your GitHub, Twitter, or Gravatar profile image.
+    'twitter_username' : 'etonleung', # No @ symbol, just the handle.
+    'github_username' : "beeftaco", 
+    'headshot_url' : 'https://avatars0.githubusercontent.com/u/1771854?v=3&s=460', # Link to your GitHub, Twitter, or Gravatar profile image.
 }
     
 def home(request):
